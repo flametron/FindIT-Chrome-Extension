@@ -30,7 +30,6 @@ button {
 }
 
 .audible::before {
-  background-image: url("music.svg");
   background-size: 10px 20px;
   display: inline-block;
   width: 10px;
@@ -133,6 +132,9 @@ LIGHT THEME BELOW
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 
+  .audible::before {
+    background-image: url("music-light.svg");
+  }
   #tabname {
     border-color: #4dab5f;
   }
@@ -193,6 +195,10 @@ DARK THEME BELOW
     color: #fff;
     box-shadow: 0 1px 3px rgba(184, 12, 9, 0.12),
       0 1px 2px rgba(184, 12, 9, 0.24);
+  }
+
+  .audible::before {
+    background-image: url("music-dark.svg");
   }
 
   .foundlist:hover {

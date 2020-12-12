@@ -80,7 +80,7 @@ function runParsing(){
         }
     }
     var ul = document.querySelector("#ResultList");
-    p = document.getElementById('Results');
+    var p = document.getElementById('Results');
     
     p.classList.add('hide')
     setTimeout(function() { 

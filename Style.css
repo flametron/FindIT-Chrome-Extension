@@ -3,6 +3,7 @@ body {
   max-width: 100%;
   position: relative;
   vertical-align: middle;
+  margin: 0px;
 }
 ul {
   list-style-type: none;
@@ -17,6 +18,17 @@ button {
   text-align: left;
 }
 
+#Results {
+  opacity: 1;
+  transition: all 0.05s;
+  padding-top: 38px;
+  padding-bottom: 12px;
+}
+
+#Results.hide {
+  opacity: 1;
+}
+
 .audible::before {
   background-image: url("music.svg");
   background-size: 10px 20px;
@@ -24,4 +36,209 @@ button {
   width: 10px;
   height: 20px;
   content: "";
+}
+
+.foundlist {
+  border-radius: 2px;
+  display: inline-block;
+  margin: 2px;
+  width: 400px;
+  min-height: 3em;
+  position: relative;
+  border-radius: 5px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.foundlist:hover {
+  font-weight: bold;
+}
+
+#tabname {
+  border-radius: 5px;
+  font-size: 18px;
+  width: 270px;
+  margin-bottom: 4px;
+}
+
+#tabname::placeholder {
+  font-size: 12px;
+}
+
+#checkTabs {
+  width: 110px;
+  font-size: 14px;
+  height: 28px;
+  border-radius: 7px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#form {
+  border-radius: 5px;
+  position: fixed;
+  display: block;
+  z-index: 2;
+}
+
+.formcontainer {
+  height: 38px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 2px solid;
+}
+
+.containedbody {
+  padding: 5px;
+}
+
+.last {
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  border-top: 2px solid;
+  border-bottom: 0px solid;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/*
+LIGHT THEME BELOW
+*/
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #d6f9dd;
+  }
+
+  #form {
+    border-color: #4dab5f;
+  }
+
+  .foundlist {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .foundlist:hover {
+    background: #99f7ab;
+    border-color: #4dab5f;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  #tabname {
+    border-color: #4dab5f;
+  }
+
+  #tabname::placeholder {
+    font-size: 12px;
+    color: #4dab5f;
+    border-color: #4dab5f;
+  }
+
+  #checkTabs {
+    color: #056317;
+    border: 1.5px solid #4dab5f;
+  }
+  #checkTabs:hover {
+    background-color: #4dab5f;
+    color: #050801;
+    box-shadow: 0px 0px 5px #4dab5f, 0px 0px 25px #4dab5f, 0px 0px 50px #4dab5f,
+      0px 0px 100px #4dab5f;
+  }
+
+  .formcontainer {
+    background: #d6f9dd;
+    border-color: #4dab5f;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #d6f9dd;
+  }
+  ::-webkit-scrollbar {
+    background-color: #d6f9dd;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#4dab5f, #056317);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4dab5f;
+  }
+}
+
+/*
+DARK THEME BELOW
+*/
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #fff;
+  }
+
+  #form {
+    border-color: #b80c09;
+  }
+
+  .foundlist {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(184, 12, 9, 0.12),
+      0 1px 2px rgba(184, 12, 9, 0.24);
+  }
+
+  .foundlist:hover {
+    background: #401818;
+    border-color: #b80c09;
+    box-shadow: 0 14px 28px rgba(184, 12, 9, 0.25),
+      0 10px 10px rgba(119, 0, 0, 0.22);
+  }
+
+  #tabname {
+    border-color: #b80c09;
+  }
+
+  #tabname::placeholder {
+    font-size: 12px;
+    color: #b80c09;
+    border-color: #b80c09;
+  }
+
+  #checkTabs {
+    color: #770000;
+    border: 1.5px solid #b80c09;
+  }
+  #checkTabs:hover {
+    background-color: #b80c09;
+    color: #050801;
+    box-shadow: 0px 0px 5px #b80c09, 0px 0px 25px #b80c09, 0px 0px 50px #b80c09,
+      0px 0px 100px #b80c09;
+  }
+
+  .formcontainer {
+    background: #121212;
+    border-color: #b80c09;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #323232;
+  }
+  ::-webkit-scrollbar {
+    background-color: #323232;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#b80c09, #770000);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b80c09;
+  }
 }

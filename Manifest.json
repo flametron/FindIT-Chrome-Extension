@@ -19,6 +19,14 @@
         "dafault_title":"Find that tab you're looking for!",
         "default_popup":"Popup.html"
     },
+    "commands":{
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl+Shift+F",
+                "linux": "Ctrl+Shift+F"
+            }
+        }
+    },
     "permissions": [
         "tabs"
     ]

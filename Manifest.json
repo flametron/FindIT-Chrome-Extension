@@ -1,0 +1,25 @@
+{   "name":"FindIt",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description":"Find that Tab! Made by Sayan Kundu",
+    "icons":{
+        "512":"icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches":["https://*/*","http://*/*"]
+        }
+    ],
+    "browser_action":{
+        "dafault_title":"Find that tab you're looking for!",
+        "default_popup":"Popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

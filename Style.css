@@ -1,0 +1,27 @@
+body {
+  min-width: 400px;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+div {
+  list-style-type: none;
+}
+
+button {
+  text-align: left;
+}
+
+.audible::before {
+  background-image: url("music.svg");
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  content: "";
+}

@@ -95,6 +95,7 @@ function runParsing(){
 }
 
 function setListners(){
+    runParsing();
     document.getElementById('checkTabs').addEventListener('click', runParsing);
     document.getElementById('tabname').addEventListener('keydown',(event) => setTimeout(runParsing, 10));
 }

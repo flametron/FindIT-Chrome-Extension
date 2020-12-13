@@ -76,6 +76,7 @@ You can download the latest `.crx` file under our [Releases](https://github.com/
 ## Credits
 
 - Icon Credits: [freepik.com](https://www.freepik.com/) and [Freepik Storyset](https://storyset.com/web)
+- Thanks to [Triparna Ganguly](https://github.com/Triparna-Ganguly) for helping me with the CSS.
 
 ## Contribute
 

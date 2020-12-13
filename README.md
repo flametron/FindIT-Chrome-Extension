@@ -10,8 +10,8 @@
 <h4 align="center">Find your lost chrome tab!</h4>
 
 <p align="center">
-  <a href = "./releases/"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/flametron/FindIT-Chrome-Extension"></a>
-  <a href = "./commits/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/flametron/FindIT-Chrome-Extension"></a>
+  <a href = "https://github.com/flametron/FindIT-Chrome-Extension/releases/"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/flametron/FindIT-Chrome-Extension"></a>
+  <a href = "https://github.com/flametron/FindIT-Chrome-Extension/commits/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/flametron/FindIT-Chrome-Extension"></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/flametron/FindIT-Chrome-Extension">
   <a href = "#contribute"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/flametron/FindIT-Chrome-Extension?color=green"></a>
   <a href = "./LICENSE.md"><img alt="GitHub" src="https://img.shields.io/github/license/flametron/FindIT-Chrome-Extension"></a>
@@ -36,25 +36,25 @@
 
 ## Installation
 
-- To use the extension you need to download the `FindIT.crx` installer from our [Releases](./releases/).  
+- To use the extension you need to download the `FindIT.crx` installer from our [Releases](https://github.com/flametron/FindIT-Chrome-Extension/releases/).  
 - Then go to [chrome://extensions/](chrome://extensions/) and     turn on Developer Mode  
   ![screenshot](./images/turnondevmoce.gif)
 - Clone this repo to your local machine
   ```bash
   git clone https://github.com/flametron/FindIT-Chrome-Extension.git
   ```
-- Click on "Load unpacked" on the Extensions screen and select the cloned directory `FindIT-Chrome-Extension`.
+- Click on "Load unpacked" on the Extensions screen and select the cloned directory `FindIT-Chrome-Extension`.  
   ![screenshot](./images/loadunpacked.gif)
 - Done! You have the extension installed!
 
 Additional Steps:  
-- You can bring out the extension outside of the menu by pinning it.
+- You can bring out the extension outside of the menu by pinning it.  
   ![screenshot](./images/pintheextension.gif)
 
 ## How To Use
 
 There are two ways to open the extension:
-- By clicking on the extension icon.
+- By clicking on the extension icon.  
   ![screenshot](./images/clickonext.gif)
 - By using the shortcut keys:  
   Windows and Linux: `Ctrl+Shift+F`
@@ -66,7 +66,7 @@ After you have found the tab you want to go to, just click on it, and you will b
 
 ## Download
 
-You can download the latest `.crx` file under our [Releases](./releases/).
+You can download the latest `.crx` file under our [Releases](https://github.com/flametron/FindIT-Chrome-Extension/releases/).
 
 ## Credits
 
@@ -74,7 +74,7 @@ You can download the latest `.crx` file under our [Releases](./releases/).
 
 ## Contribute
 
-Feel free to check [Issues](./issues) to contribute to the project.
+Feel free to check [Issues](https://github.com/flametron/FindIT-Chrome-Extension/issues) to contribute to the project.
 
 ## When is it coming to the web store?
 

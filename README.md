@@ -14,7 +14,7 @@
   <a href = "https://github.com/flametron/FindIT-Chrome-Extension/commits/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/flametron/FindIT-Chrome-Extension"></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/flametron/FindIT-Chrome-Extension">
   <a href = "#contribute"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/flametron/FindIT-Chrome-Extension?color=green"></a>
-  <a href = "./LICENSE.md"><img alt="GitHub" src="https://img.shields.io/github/license/flametron/FindIT-Chrome-Extension"></a>
+  <a href = "./LICENSE.md"><img alt="License" src="https://img.shields.io/github/license/flametron/FindIT-Chrome-Extension"></a>
   <a href="https://github.com/flametron/FindIT-Chrome-Extension/issues/"><img alt="GitHub issues" src="https://img.shields.io/github/issues/flametron/FindIT-Chrome-Extension"></a>
 </p>
 

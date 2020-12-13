@@ -114,11 +114,11 @@ LIGHT THEME BELOW
 
 @media (prefers-color-scheme: light) {
   body {
-    background: #d6f9dd;
+    background: #ff8d8d;
   }
 
   #form {
-    border-color: #4dab5f;
+    border-color: #ff4040;
   }
 
   .foundlist {
@@ -127,8 +127,8 @@ LIGHT THEME BELOW
   }
 
   .foundlist:hover {
-    background: #99f7ab;
-    border-color: #4dab5f;
+    background: #ffd9d9;
+    border-color: #ff4040;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 
@@ -136,43 +136,43 @@ LIGHT THEME BELOW
     background-image: url("music-light.svg");
   }
   #tabname {
-    border-color: #4dab5f;
+    border-color: #ff4040;
   }
 
   #tabname::placeholder {
     font-size: 12px;
-    color: #4dab5f;
-    border-color: #4dab5f;
+    color: #ff4040;
+    border-color: #ff4040;
   }
 
   #checkTabs {
-    color: #056317;
-    border: 1.5px solid #4dab5f;
+    color: #cc3333;
+    border: 1.5px solid #ff4040;
   }
   #checkTabs:hover {
-    background-color: #4dab5f;
+    background-color: #ff4040;
     color: #050801;
-    box-shadow: 0px 0px 5px #4dab5f, 0px 0px 25px #4dab5f, 0px 0px 50px #4dab5f,
-      0px 0px 100px #4dab5f;
+    box-shadow: 0px 0px 5px #ff4040, 0px 0px 25px #ff4040, 0px 0px 50px #ff4040,
+      0px 0px 100px #ff4040;
   }
 
   .formcontainer {
-    background: #d6f9dd;
-    border-color: #4dab5f;
+    background: #ff8d8d;
+    border-color: #ff4040;
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #d6f9dd;
+    background-color: #ff8d8d;
   }
   ::-webkit-scrollbar {
-    background-color: #d6f9dd;
+    background-color: #ff8d8d;
   }
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#4dab5f, #056317);
+    background: linear-gradient(#ff4040, #cc3333);
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #4dab5f;
+    background: #ff4040;
   }
 }
 

@@ -1,20 +1,17 @@
-{   "name":"FindIt",
+{   "name":"FindIT!",
     "version":"0.0.1",
     "manifest_version":2,
-    "description":"Find that Tab! Made by Sayan Kundu",
+    "description":"Find that Tab! Made with Code and Love! Opensource Project.",
+    "homepage_url":"https://github.com/flametron/TabFinder-Chrome-Extension",
     "icons":{
-        "512":"icon.png"
+        "16":"icons/icon16.png",
+        "32":"icons/icon32.png",
+        "48":"icons/icon48.png",
+        "128":"icons/icon128.png",
+        "256":"icons/icon256.png",
+        "512":"icons/icon512.png",
+        "1024":"icons/icon1024.png"
     },
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "content_scripts": [
-        {
-            "js": ["content.js"],
-            "matches":["https://*/*","http://*/*"]
-        }
-    ],
     "browser_action":{
         "dafault_title":"Find that tab you're looking for!",
         "default_popup":"Popup.html"

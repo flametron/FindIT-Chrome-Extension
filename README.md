@@ -15,6 +15,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/flametron/FindIT-Chrome-Extension">
   <a href = "#contribute"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/flametron/FindIT-Chrome-Extension?color=green"></a>
   <a href = "./LICENSE.md"><img alt="GitHub" src="https://img.shields.io/github/license/flametron/FindIT-Chrome-Extension"></a>
+  <a href="https://github.com/flametron/FindIT-Chrome-Extension/issues/"><img alt="GitHub issues" src="https://img.shields.io/github/issues/flametron/FindIT-Chrome-Extension"></a>
 </p>
 
 <p align="center">
@@ -97,5 +98,4 @@ As soon as I pay the fee and publish it ;)
 <a href="https://sayankundu.in/"><img alt="Website" src="https://img.shields.io/website?down_message=https%3A%2F%2Fsayankundu.in%2F&up_message=https%3A%2F%2Fsayankundu.in%2F&url=https%3A%2F%2Fsayankundu.in%2F"></a>
 <a href="https://github.com/flametron"><img alt="Website" src="https://img.shields.io/website?down_message=%40flametron&label=github&up_message=%40flametron&url=https%3A%2F%2Fgithub.com%2Fflametron"></a>
 <a href="https://www.linkedin.com/in/sayan-kundu-flametron/"><img alt="Website" src="https://img.shields.io/website?down_message=Sayan%20Kundu&label=linkedIn&up_message=Sayan%20Kundu&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsayan-kundu-flametron%2F"></a>
-<a href="./issues/"><img alt="GitHub issues" src="https://img.shields.io/github/issues/flametron/FindIT-Chrome-Extension"></a>
 </p>

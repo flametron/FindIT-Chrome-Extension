@@ -2,7 +2,7 @@
     "version":"0.0.1",
     "manifest_version":2,
     "description":"Find that Tab! Made with Code and Love! Opensource Project.",
-    "homepage_url":"https://github.com/flametron/TabFinder-Chrome-Extension",
+    "homepage_url":"https://github.com/flametron/FindIT-Chrome-Extension",
     "icons":{
         "16":"icons/icon16.png",
         "32":"icons/icon32.png",

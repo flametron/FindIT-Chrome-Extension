@@ -1,6 +1,7 @@
 var storetabs = {};
 var hasaudiodir = [];
 var multipletitles = [];
+var count =0;
 
 
 function addTolist(tab, index){
@@ -40,7 +41,10 @@ function addTolist(tab, index){
     }
 
 function startingCheck(){
-    chrome.tabs.query({ currentWindow:true }, tabs => {
+    count=0;
+    const but = document.getElementById("checkTabs");
+    chrome.tabs.query({ currentWindow:true }, (tabs) => {
+        but.innerHTML=tabs.length+" Tabs";
         tabs.forEach( addTolist
         );
     });
@@ -73,6 +77,7 @@ function addChild(ul,k,id){
 
 function runParsing(){
     var found = {};
+
     const tabreqired = document.querySelector('#tabname').value;
     for(var k in storetabs){
         if(k.toLowerCase().includes(tabreqired.toLowerCase())){

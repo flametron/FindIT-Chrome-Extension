@@ -6,15 +6,6 @@ var count =0;
 
 function addTolist(tab, index){
     if(tab.title+"" in storetabs || multipletitles.includes(tab.title+"") ){
-        // if(tab.title in storetabs && !(multipletitles.includes(tab.title))){
-        //     chrome.tabs.get(parseInt(storetabs[tab.title]), function(tab3){
-        //         if(tab3.url == tab.url){
-        //             return;
-        //         }
-        // })
-        // }
-        // !TODO: not intended behaviour
-
         if(multipletitles.includes(tab.title+"")){
             //it already has 2 tabs
             storetabs[tab.title+"("+tab.url+")"]=tab.id;
@@ -30,7 +21,6 @@ function addTolist(tab, index){
             storetabs[temptitle+"("+tab.url+")"]=tab.id;
             multipletitles.push(temptitle);
         }
-        // console.log(multipletitles);
     }
     else{
         storetabs[tab.title+""]=tab.id;
@@ -38,7 +28,7 @@ function addTolist(tab, index){
     if(tab.audible){
         hasaudiodir.push(tab.id);
     }
-    }
+}
 
 function startingCheck(){
     count=0;
@@ -51,8 +41,6 @@ function startingCheck(){
 }
 
 function goToTab(id){
-    // alert(typeof(parseInt(id)));
-    // chrome.tabs.sendMessage(parseInt(id), "FocusMe" );
     var updateProperties = { 'active': true };
     chrome.tabs.update(parseInt(id), updateProperties, (tab) => { });
 }
@@ -109,4 +97,4 @@ document.addEventListener('DOMContentLoaded', function() {
     startingCheck();
     setTimeout(setListners, 10);
     document.querySelector('#tabname').focus();
-    });
+});

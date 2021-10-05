@@ -72,7 +72,7 @@ After you have found the tab you want to go to, just click on it, and you will b
 
 ## Download
 
-You can download the latest `.crx` file under our [Releases](https://github.com/flametron/FindIT-Chrome-Extension/releases/).
+You can download the latest `.crx` file under our [Releases](https://github.com/flametron/FindIT-Chrome-Extension/releases/)
 
 ## Credits
 

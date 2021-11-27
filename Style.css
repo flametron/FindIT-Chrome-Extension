@@ -243,7 +243,6 @@ DARK THEME BELOW
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(#b80c09, #770000);
   }
-
   ::-webkit-scrollbar-thumb:hover {
     background: #b80c09;
   }

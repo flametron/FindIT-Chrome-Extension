@@ -50,8 +50,8 @@ function startingCheck(){
     });
 }
 
+
 function goToTab(id){
-    // alert(typeof(parseInt(id)));
     // chrome.tabs.sendMessage(parseInt(id), "FocusMe" );
     var updateProperties = { 'active': true };
     chrome.tabs.update(parseInt(id), updateProperties, (tab) => { });
